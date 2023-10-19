@@ -7,6 +7,7 @@ import { RouterView, RouterLink } from 'vue-router'
     <div class="links">
       <RouterLink active-class="active" to="/">Home</RouterLink>
       <RouterLink active-class="active" to="/about">About</RouterLink>
+      <RouterLink active-class="active" to="/contact">Contact</RouterLink>
     </div>
     <RouterView />
   </main>
